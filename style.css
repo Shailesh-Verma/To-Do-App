@@ -1,0 +1,92 @@
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(250, 246, 246);
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .forAside {
+    text-align: center;
+  }
+  
+  .ForHeading {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(149, 50, 8);
+  }
+  
+  .forForm {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .forForm input {
+    padding: 10px;
+    border: 2px outset rgb(189, 18, 18);
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .forForm button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .forArticle {
+    width:40%;
+  }
+  
+  .forArticle div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ceefee;
+    border-radius: 5px;
+  }
+  
+  .value {
+    font-size: 18px;
+    margin-right: 80px;
+  }
+  
+  .forArticle button {
+    padding: 8px 16px;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #update {
+    background-color: #d826b5;
+    color: white;
+  }
+  
+  #delete {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .forFooter button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
