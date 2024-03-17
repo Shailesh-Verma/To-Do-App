@@ -1,8 +1,6 @@
-//! Mini project
-
 import React from 'react'
 import { useState } from 'react'
-import todo from "../TO-DO App/todo.jpg"
+import todo from "../TO-DO App/assets/todo.jpg"
 
 const Todo = () => {
 
